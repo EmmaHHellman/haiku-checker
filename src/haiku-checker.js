@@ -1,3 +1,5 @@
+import { debug } from "webpack";
+
 export class Haiku {
   constructor (sentence1, sentence2, sentence3) {
     this.sentence1 = sentence1;
@@ -6,8 +8,8 @@ export class Haiku {
 }
 
   arraySplit() {
-    newSentence = this.sentence1.split(" ");
-    console.log("this.sentence1");
+    let newSentence = this.sentence1;
+    console.log(newSentence);
     return newSentence;
   }
 
