@@ -7,20 +7,20 @@ export class Haiku {
      this.sentence3 = sentence3;
   }
 
-  sentenceSplit() {
-    let vowels = ["a", "e", "i", "o", "u", "y"];
-    let consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z"];
-    let sentence1split = this.sentence1.split(" ");
-    let wordSplit = sentence1split[0].split('');
-    return wordSplit;
-    //return sentence1split;
+  // sentenceSplit() {
+  //   let vowels = ["a", "e", "i", "o", "u", "y"];
+  //   let consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z"];
+  //   let sentence1split = this.sentence1.split(" ");
+
+  //   let vowelCount = 0;
     
-    // wordSplit.forEach(function(letter) {
-    //   if(letter.includes(vowels)) {
-    //     return true;
-    //   } else {
-    //     return false;
-    //   }
-    
-    //})
-}};
+  //   sentence1split.forEach(word) {
+  //     if (word.length == 1) {
+  //       vowelCount += 1;
+  //     } else {
+  //     }
+  //   }
+  //   console.log(vowelCount);
+  //     return vowelCount;
+  //   }
+};
