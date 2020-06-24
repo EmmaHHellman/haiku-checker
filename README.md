@@ -28,7 +28,6 @@
 | The program returns true if the first line has five syllables| "Dogs are really cute" | true |
 | The program checks the second line for seven syllables | "They like to get lots of treats" | true |
 | The program checks the third line for five syllables | "They are such good boys" | true |
-| 
 
 ## Setup/Installation Requirements
 
