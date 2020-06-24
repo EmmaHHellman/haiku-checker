@@ -8,7 +8,7 @@ export class Haiku {
 }
 
   arraySplit() {
-    let newSentence = this.sentence1;
+    let newSentence = this.sentence1.split(" ");
     console.log(newSentence);
     return newSentence;
   }
