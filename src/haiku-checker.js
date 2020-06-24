@@ -11,15 +11,16 @@ export class Haiku {
     let vowels = ["a", "e", "i", "o", "u", "y"];
     let consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z"];
     let sentence1split = this.sentence1.split(" ");
-    let wordSplit = sentence1split[1].split('');
+    let wordSplit = sentence1split[0].split('');
+    return wordSplit;
     //return sentence1split;
     
-    wordSplit.forEach(function(letter) {
-      if(letter.includes(vowels)) {
-        return true;
-      } else {
-        return false;
-      }
+    // wordSplit.forEach(function(letter) {
+    //   if(letter.includes(vowels)) {
+    //     return true;
+    //   } else {
+    //     return false;
+    //   }
     
-    })
+    //})
 }};

@@ -13,7 +13,7 @@ describe('Haiku', () => {
 
   test('should correctly split sentence1 to an array of words', () => {
     const haiku = new Haiku("Dogs are very cute", "They really like to get treats", "They are such good boys");
-    expect(haiku.sentenceSplit()).toEqual(true);
+    expect(haiku.sentenceSplit()).toEqual(["D", "o", "g", "s"]);
   });
 
 });
