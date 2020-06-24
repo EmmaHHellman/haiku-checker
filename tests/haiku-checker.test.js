@@ -7,6 +7,7 @@ describe('Haiku', () => {
     const haiku = new Haiku(["Dogs are very cute"], ["They really like to get treats"], ["They are such good boys"]);
     expect (haiku.sentence1).toEqual(["Dogs are very cute"]);
     expect (haiku.sentence2).toEqual(["They really like to get treats"]);
+    expect (haiku.sentence3).toEqual(["They are such good boys"]);
 
   });
 
