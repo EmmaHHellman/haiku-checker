@@ -11,4 +11,8 @@ describe('Haiku', () => {
 
   });
 
+  test('should correctly split sentence1 to an array of words'), () => {
+    expect(haiku.arraySplit).toEqual(["Dogs", "are", "very", "cute"]);
+  }
+
 });
